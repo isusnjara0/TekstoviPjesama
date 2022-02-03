@@ -3,7 +3,7 @@
  $dbhost = "";
  $dbuser = "b33e7d0dcf19eb";
  $dbpass = "8c344f99";
- $db = "baza";
+ $db = "`heroku_ee10db9e69e6457`";
  $conn = new mysqli($dbhost, $dbuser, $dbpass,$db) ;
  
  if (mysqli_connect_errno())
